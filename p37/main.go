@@ -22,7 +22,7 @@ func main() {
 	foo := func() {
 		fmt.Println("無名関数を変数に代入して呼び出し")
 	}
-	foo()
+	go foo()
 
 	// 1秒sleepして、他のgoroutineが終了するのを待つ
 	time.Sleep(1 * time.Second)

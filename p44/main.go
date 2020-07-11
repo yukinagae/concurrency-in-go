@@ -25,7 +25,7 @@ func main() {
 	}
 
 	// 生成するgoroutineの数
-	const numGoroutines = 1e4
+	const numGoroutines = 1e5
 
 	wg.Add(numGoroutines)
 
